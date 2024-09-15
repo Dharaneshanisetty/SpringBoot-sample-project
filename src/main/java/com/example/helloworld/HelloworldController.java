@@ -24,11 +24,11 @@ public class HelloworldController {
         return "no account provided";
     }
 
-//    @GetMapping("/getname")
-//
-//    public String getNoName(){
-//        return "no data required";
-//    }
+    @GetMapping("/getname")
+
+    public String getNoName(){
+        return "no data required";
+    }
 }
 
 
